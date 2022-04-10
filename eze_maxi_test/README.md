@@ -22,5 +22,5 @@ You will be able to check a variety of commands, either succesful one or not, an
 ```
 #### Created by
 
-Ezequiel Silva - [Github](https://github.com/ezesilva95) / [Linkedin](https://www.linkedin.com/in/ezequiel-silva-perez-1262b115b/)
-Maximiliano Alonso - [Github](https://github.com/MaxiHBTN) / [Linkedin](https://www.linkedin.com/in/maximiliano-alonso-262b05123/)
+- Ezequiel Silva - [Github](https://github.com/ezesilva95) / [Linkedin](https://www.linkedin.com/in/ezequiel-silva-perez-1262b115b/)
+- Maximiliano Alonso - [Github](https://github.com/MaxiHBTN) / [Linkedin](https://www.linkedin.com/in/maximiliano-alonso-262b05123/)
