@@ -1,6 +1,6 @@
 # Simple Shell Test 
 
-This test was created in order to contribute to the test siute for Holberton School simple shell proyect.
+This test was created in order to contribute to the test siute for Holberton School simple shell project.
 
 ## What will be tested
 
