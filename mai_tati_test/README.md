@@ -22,5 +22,5 @@ sh tests.sh
 Finally compare the "Correct Output" with "Your Output", both outputs should be the same.
 
 ## Authors
-* [Maia Iglesias] (https://github.com/mglssr)
-* [Tatiana Fernández] (https://github.com/Titania792)
+* [Maia Iglesias](https://github.com/mglssr)
+* [Tatiana Fernández](https://github.com/Titania792)
