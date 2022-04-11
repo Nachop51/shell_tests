@@ -19,7 +19,7 @@ Then execute your shell with valgrind and then do this:
 ````
 /bin/sh tests.sh
 ````
-And then check if the expected output is the same as your output! \
+And then check if the expected output is the same as your output!
 
 Thanks for using!
 ## Authors
