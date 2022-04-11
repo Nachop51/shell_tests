@@ -1,0 +1,53 @@
+#!/bin/bash
+clear
+echo ""
+echo "-------------Test 1--------------"
+echo "Command tested: "/bin/ls -l /var /tmp" | ./hsh"
+echo "---------------------------------"
+echo "Correct output:"
+echo "/bin/ls -l /var /tmp" | /bin/sh
+echo "---------------------------------"
+echo "Your output:"
+echo "/bin/ls -l /var /tmp" | valgrind ./hsh
+echo "---------------------------------"
+echo ""
+echo "-------------Test 2--------------"
+echo "Command tested: "ls -lampf" | ./hsh"
+echo "---------------------------------"
+echo "Correct output:"
+echo "ls -lampf" | /bin/sh
+echo "---------------------------------"
+echo "Your output:"
+echo "ls -lampf" | valgrind ./hsh
+echo "---------------------------------"
+echo ""
+echo "-------------Test 3--------------"
+echo "Command tested: "../" | ./hsh"
+echo "---------------------------------"
+echo "Correct output:"
+echo "../" | /bin/sh
+echo "---------------------------------"
+echo "Your output:"
+echo "../" | valgrind ./hsh
+echo "---------------------------------"
+echo ""
+echo "-------------Test 4--------------"
+echo "Command tested: "exit" | ./hsh"
+echo "---------------------------------"
+echo "Correct output:"
+echo "exit a" | /bin/sh
+echo "---------------------------------"
+echo "Your output:"
+echo "exit a" | valgrind ./hsh
+echo "---------------------------------"
+echo ""
+echo "-------------Test 5--------------"
+echo "Command tested: "/../../../../../../../bin" | ./hsh"
+echo "---------------------------------"
+echo "Correct output:"
+echo "/../../../../../../../bin" | sh
+echo "---------------------------------"
+echo "Your output:"
+echo "/../../../../../../../bin" | valgrind ./hsh
+echo "---------------------------------"
+echo ""
